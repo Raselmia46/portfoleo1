@@ -1,0 +1,86 @@
+.fruktur-regular {
+  font-family: "Fruktur", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.fruktur-regular-italic {
+  font-family: "Fruktur", system-ui;
+  font-weight: 400;
+  font-style: italic;
+}
+.carousel-item img{
+  height: 80vh;
+  width: 100vh;
+}
+
+.hero-section {
+    padding-top: 160px; /* Push down below fixed header */
+    padding-bottom: 5rem;
+}
+
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4rem;
+}
+
+.hero-content {
+    flex: 1; /* Takes up half space */
+}
+
+.hero-title {
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.highlight {
+    color: var(--primary-color);
+}
+
+.hero-subtitle {
+    font-size: 1.5rem;
+    color: var(--text-light);
+    margin-bottom: 1.5rem;
+    font-weight: 400;
+}
+
+.hero-text {
+    margin-bottom: 2.5rem;
+    font-size: 1.1rem;
+    color: var(--text-light);
+    max-width: 600px;
+}
+
+.hero-image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover; /* Ensures image doesn't stretch weirdly */
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%; /* Fun blob shape */
+    box-shadow: var(--shadow);
+    border: 5px solid var(--white);
+}
+
+
+
+.contact-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .contact-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 1rem 3rem rgba(0,0,0,.1) !important;
+            border-color: #0d6efd !important;
+        }
+        /* Make the icon spin slightly on hover */
+        .contact-card:hover .icon-wrapper {
+            background-color: #0d6efd !important; /* Bootstrap primary color */
+            color: white !important;
+        }
